@@ -112,8 +112,6 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(QWidget())
         self.centralWidget().setLayout(hBoxLayout)
 
-
-
     def initMenu(self):
 
         menubar = self.menuBar()
@@ -139,7 +137,11 @@ class MainWindow(QMainWindow):
         calibAction = QAction('&Calibration', self)
         calibAction.setStatusTip('Do calibration task')
 
+        kmtzControlAction = QAction('&KMTZ control', self)
+        kmtzControlAction.setStatusTip('KMTZ control task')
+
         toolsMenu = menubar.addMenu('&Tools')
+        toolsMenu.addAction(kmtzControlAction)
         toolsMenu.addAction(calibAction)
 
     def initWindow(self):
