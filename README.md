@@ -1,3 +1,6 @@
 # kmtz_client
 
-Tested with python 3.7.2.
+Tested with:
+
+* Python 3.7.2.
+* PyQt5-5.12
