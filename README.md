@@ -3,6 +3,7 @@
 ## Wi-fi connection to Stereo PI
 
 **Net name**: RPiHotspot
+
 **Password**: kmtzrobot
 
 ## Requirements 
