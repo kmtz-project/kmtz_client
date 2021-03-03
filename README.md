@@ -6,6 +6,8 @@
 
 **Password**: kmtzrobot
 
+**IP**: 10.10.10.10
+
 ## Requirements 
 
 Tested with:
